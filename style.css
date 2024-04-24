@@ -127,6 +127,8 @@ ul li{
     cursor: pointer;
     position: relative;
     border-bottom: 2px solid rgb(35, 34, 49);
+    word-wrap: break-word;
+    padding-left: 50px;
 }
 
 ul li::before{
@@ -153,7 +155,7 @@ ul li.checked::before{
 
 ul li span{
     position: absolute;
-    right: 0;
+    right: -20px;
     top: 1px;
     width: 40px;
     height: 40px;
