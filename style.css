@@ -128,7 +128,6 @@ ul li{
     position: relative;
     border-bottom: 2px solid rgb(35, 34, 49);
     word-wrap: break-word;
-    padding-left: 50px;
 }
 
 ul li::before{
@@ -193,4 +192,17 @@ ul li span:hover{
         color: #fff;
         font-weight: 500;
     }
+
+    input {
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 10px;
+        font-weight: 14px;
+        max-width: 60%; 
+        width: calc(100% - 20px); 
+        overflow-wrap: break-word; 
+    }
+
 }
