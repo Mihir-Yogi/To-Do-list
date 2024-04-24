@@ -10,6 +10,7 @@
     height: 100vh;
     background: linear-gradient(133deg, rgba(2,0,36,1) 0%, rgba(55,82,102,1) 65%);
     padding: 10px;
+    overflow: hidden;
 }
 
 .todo-app{
@@ -20,6 +21,7 @@
     padding: 40px 30px 70px;
     border-radius: 10px;
     transition: all 0.5s;
+    overflow: hidden;
 }
 .todo-app:hover{
     border: 1px solid black;
